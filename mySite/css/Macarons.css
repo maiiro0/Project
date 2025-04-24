@@ -1,0 +1,32 @@
+body{
+    background-image: url(images/MacaronFond.png);
+    color: blanchedalmond;
+    background-attachment: fixed;
+}
+
+.yellowBalloon{
+    width: 100px;
+    height: 132px;
+}
+
+#Title{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black;
+}
+
+#click{
+    width: 80px;
+    height: 102px;
+}
+
+#wrapper{
+    text-align: center;
+    max-width: 400px;
+    margin : auto;
+}
+
+.redBalloon{
+    width: 100px;
+    height: 132px;
+}

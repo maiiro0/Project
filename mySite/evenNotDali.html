@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  
+    <link rel="stylesheet" href="./css/TU.css">
+    <link rel="stylesheet" href="./css/evenNotDali.css">
+</head>
+<body >
+    <!-- Navbar-->
+    <div class="TU-top">
+        <div class="TU-bar TU-orange TU-card TU-left-align TU-large">
+          <img id="myLogo" src="https://tekkieuni.com/wp-content/themes/tekkie/images/logo-color.png.webp" alt="logo">
+          <a href="./index.html#top" class="TU-bar-item TU-button TU-padding-large TU-white">Home</a>
+          <a href="./index.html#about" class="TU-bar-item TU-button TU-padding-large TU-hover-white">About</a>
+          <a href="./RPS.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Rock Paper Scissors</a>
+          <a href="Macarons.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">My Macarons Game</a>
+          <a href="./evenNotDali.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Even Not Dali</a>
+          <a href="./howToTrainYourDragon.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Girl</a>
+          <a href="./collector.html" class="TU-bar-item TU-button TU-padding-large TU-hover-white">Collector</a>
+
+        </div>
+            </div>
+      <!-- END Navbar -->
+
+
+  <!-- The Game template -->
+    <div id="wrapper" style="padding:10% 16px">
+      <h1>Even Not Dali</h1>
+      <h2>Draw what you want</h2>
+      <canvas id="canvas"></canvas>
+        <div id="toolsAndButtons">
+          <div class="tools">
+            <div class="color-fields" style="background: red;" onClick="changeColor(this)" ></div>
+            <div class="color-fields" style="background: blue;" onClick="changeColor(this)"></div>
+            <div class="color-fields" style="background: green;" onClick="changeColor(this)"></div>
+            <div class="color-fields" style="background: yellow;" onClick="changeColor(this)"></div>
+            <div class="color-fields" style="background: white;" onClick="changeColor(this)"></div>
+            <div class="color-fields" style="background: black;" onClick="changeColor(this)"></div>
+
+            <input type="color" class="color-picker" onInput="drawColor = this.value">
+
+            <input type="range" class="pen-range" min="1" max="100" value="2" onInput="drawWidth = this.value">
+          </div>
+          <br>
+          <div id="buttons">
+            <button class="buttons" >Undo</button>
+            <button class="buttons" onClick="clearCanvas()">Clear</button>
+            <button class="buttons" onClick="saveImage()">Save</button>
+          </div>
+              
+        </div>
+    </div>
+  <!-- END The Game template -->
+
+  
+
+  <!--Footer For the Template per game-->
+    <div class="TU-container TU-black TU-center TU-opacity TU-padding-64">
+      <h1 class="TU-margin TU-xlarge">Quote of the day: All the dreams can come true; if we have the courage to persue them.</h1>
+    </div>
+  <!--END Footer For the Template per game-->
+    <script src="./js/fixDpi.js"></script>
+    <script src="./js/evenNotDali.js"></script>
+</body>
+</html>
+

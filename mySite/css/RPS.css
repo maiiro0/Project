@@ -1,0 +1,60 @@
+#wrapper{
+    text-align: center;
+    font-family:monospace;
+    
+}
+
+#gameTitle{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-shadow:0 0 3px rgb(17, 99, 65);
+}
+
+.rps{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 20%;
+    border: 4px solid black;
+    padding: 10px;
+}
+
+.userArea img{
+    width: 100px;
+    height: 100px;
+}
+
+#scoreBoard{
+   border: 3px solid black ;
+   width: 150px;
+   margin: 20px auto;
+   font-size: 45px;
+   border-radius: 5%;
+   padding: 15px;
+   position: relative;
+   font-family:monospace;
+}
+
+.badge{
+    color: white;
+    font-size: 14px;
+    padding: 2px;
+}
+
+#userLabel{
+    background-color: rgb(200, 96, 241);
+    position: absolute;
+    left: -45px;
+    top: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 60px;
+}
+
+#computerLabel{
+    background-color: rgb(186, 105, 240);
+    position: absolute;
+    right: -45px;
+    top: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
